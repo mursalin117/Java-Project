@@ -18,7 +18,7 @@ public class MyNotePad extends JFrame implements ActionListener//, ChangeListene
 	//private int font = 20;
 	private JFileChooser fchoose;
 
-	MyNotePad1()
+	MyNotePad()
 	{
 		f = new Font("Arial", Font.PLAIN, 20);
 		//btng = new ButtonGroup();
@@ -97,7 +97,7 @@ public class MyNotePad extends JFrame implements ActionListener//, ChangeListene
 		else if(e.getSource() == newItm)
 		{
 			//dispose();
-			JFrame frame = new MyNotePad1();
+			JFrame frame = new MyNotePad();
 			frame.setTitle("MyNotePad");
 			frame.setSize(400, 400);
 			frame.setVisible(true);
