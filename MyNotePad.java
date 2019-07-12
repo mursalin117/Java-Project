@@ -6,7 +6,7 @@ import java.awt.event.*;
 import java.io.*;
 import java.util.*;
 
-public class MyNotePad1 extends JFrame implements ActionListener//, ChangeListener 
+public class MyNotePad extends JFrame implements ActionListener//, ChangeListener 
 {
 	//private Container c;
 	private JTextArea ta;
@@ -110,7 +110,7 @@ public class MyNotePad1 extends JFrame implements ActionListener//, ChangeListen
 
 	public static void main(String args[])
 	{
-		MyNotePad1 m = new MyNotePad1();
+		MyNotePad m = new MyNotePad();
 		m.setTitle("MyNotePad");
 		m.setBounds(100, 100, 500, 400);
 		m.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
